@@ -1,0 +1,82 @@
+header {
+  background: linear-gradient(rgba(93, 165, 247, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 100%;
+  width: 100%;
+  min-height: 640px;
+}
+header div {
+  color: white;
+  padding: 200px 0 150px 100px;
+  text-align: left;
+}
+
+header div h1 {
+  font-size: 60px;
+}
+
+header div p {
+  font-size: 18px;
+  padding: 20px 0 20px 70px;
+}
+
+/* Section one of our home page */
+
+.sectionone {
+  display: flex;
+  align-items: center;
+  padding: 0px 40px;
+  margin: 100px;
+}
+
+.sectionone i {
+  font-size: 3rem;
+  background: rgb(255, 196, 0);
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+.sectionone div {
+  padding: 40px;
+  margin: 0px 35px;
+}
+
+.sectionone div h2 {
+  padding: 20px 0px;
+}
+/* section two of our homepage  */
+
+.sectiontwo {
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  margin: 20px 100px;
+}
+
+.sectiontwo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+.sectiontwo div {
+  padding: 50px;
+  margin: 0 100px;
+}
+
+.sectiontwo .divone {
+  padding: 50px 200px 50px 0px;
+  text-align: left;
+}
+.sectiontwo p {
+  padding: 20px 0;
+}
+/* section three  */
+.sectiontwo .divtwo {
+  padding: 50px 0px 50px 200px;
+  text-align: left;
+}

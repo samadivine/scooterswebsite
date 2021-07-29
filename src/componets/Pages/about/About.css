@@ -1,0 +1,99 @@
+.abouthero {
+  background: linear-gradient(rgba(93, 165, 247, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 15rem;
+  color: white;
+  align-items: center;
+  padding-left: 150px;
+  padding-top: 80px;
+  font-size: 50px;
+}
+
+/* section one  */
+.ourValue h2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 0;
+}
+
+.Ourvaluelist img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.Ourvaluelist {
+  display: flex;
+  text-align: center;
+  padding: 50px 100px 100px 100px;
+}
+.Ourvaluelist div {
+  padding: 50px;
+  margin: 20px;
+}
+
+.Ourvaluelist div p:nth-child(2) {
+  text-align: center;
+  padding: 15px 0;
+  font-weight: bold;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  position: relative;
+  margin: -2rem auto 0.5rem;
+  background-color: rgb(255, 196, 0);
+}
+
+.Ourvaluelist h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/* section four  */
+.section4 {
+  text-align: center;
+}
+
+.section4 h2 {
+  font-size: 40px;
+}
+
+.faqHw {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px 50px 0px;
+  text-align: left;
+}
+/* faq section  */
+.div2 {
+  background-color: rgba(197, 234, 248, 0.849);
+  margin: 10px auto;
+  padding: 0px 15px;
+  max-width: 50rem;
+}
+.div2 .accord {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.div2 p {
+  font-size: 18px;
+}
+
+.section4 button {
+  color: rgb(255, 196, 0);
+  background-color: rgba(253, 253, 253, 0);
+  font-weight: 100px;
+  font-size: 30px;
+}
+
+.section4 .hide {
+  display: none;
+}

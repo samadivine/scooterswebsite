@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.Navmenu a {
+  display: inline-block;
+  padding-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.Navmenu a:first-child {
+  font-weight: bolder;
+  font-size: larger;
+  padding-right: 30px;
+}
+
+nav button a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(255, 196, 0);
+  padding: 12px 25px;
+  border: none;
+  border-radius: 1px;
+}

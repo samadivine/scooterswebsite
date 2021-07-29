@@ -1,0 +1,71 @@
+.locationHead {
+  height: 5rem;
+  box-shadow: 10px 5px 5px rgb(52, 72, 90);
+  background-color: rgb(52, 72, 90);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.secDiv1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px auto;
+  box-shadow: 1px 10px 5px rgb(255, 255, 255);
+}
+
+.secDiv1 input {
+  padding: 12px 100px;
+  box-shadow: 4px 10px 5px rgb(161, 161, 161);
+  border: 0.5px solid rgb(184, 183, 183);
+}
+
+.secDiv1 input:focus {
+  box-shadow: 1px 10px 5px rgb(161, 161, 161);
+  border: 1px solid rgb(184, 183, 183);
+  outline: none;
+}
+
+/* section  2 css  */
+.section2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 60px;
+  grid-column-gap: 50px;
+  justify-content: space-evenly;
+  margin: 100px;
+}
+.secDiv2 {
+  box-shadow: 1px 1px 12px 8px rgb(197, 197, 197);
+}
+
+.secDiv2 div {
+  padding: 20px 50px 50px 20px;
+}
+
+.secDiv2 img {
+  height: 200px;
+  width: 350px;
+}
+
+.secDiv2 span {
+  font-weight: 300;
+}
+
+/* some extra functions  */
+.locationHeadSwitch {
+  height: 5rem;
+  box-shadow: 10px 5px 5px rgb(165, 165, 165);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bgdiv {
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
